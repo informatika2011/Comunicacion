@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amaia.comunicacion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Actividad01"
+            android:label="Nombre y Apelidos">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Actividad01b"
+            android:label="Aceptar Condiciones" />
+        <activity
+            android:name=".AcercaDe"
+            android:label="Acerca de ...."
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Actividad02"
+            android:label="Actividad02" />
+        <activity android:name=".Actividad02b" />
+        <activity
+            android:name=".Actividad03"
+            android:label="Calculadora Simple" />
+        <activity
+            android:name=".Actividad03b"
+            android:label="Resultado Operacion" />
+        <activity
+            android:name=".Actividad04"
+            android:label="Solicitud de datos"/>
+        <activity android:name=".Actividad04b"
+            android:label="Visualizacion de datos"></activity>
+
+    </application>
+
+</manifest>

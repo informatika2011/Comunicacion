@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LytPrincipal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombre"
+        android:textSize="@dimen/activity_horizontal_margin"
+        />
+    <TextView
+        android:id="@+id/lblApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellidos:"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtApellidos"
+        android:textSize="@dimen/activity_horizontal_margin"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVerificar"
+        android:text="Verificar"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblResultado"
+        android:text="Aceptas condiciones:"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acerca de"
+        android:id="@+id/btnAcercaDe"
+        android:onClick="lanzarAcercaDe"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLVER"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:id="@+id/btnVolver"
+        android:onClick="volver"/>
+
+
+
+</LinearLayout>

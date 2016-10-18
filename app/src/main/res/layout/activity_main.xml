@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LytPrimero"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnActividad01"
+        android:text="Actividad 01"
+        android:textSize="15dp"
+        android:onClick="actividad01"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnActividad02"
+        android:text="Actividad 02"
+        android:textSize="15dp"
+        android:onClick="actividad02"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnActividad03"
+        android:text="Actividad 03"
+        android:textSize="15dp"
+        android:onClick="actividad03"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnActividad04"
+        android:text="Actividad 04"
+        android:textSize="15dp"
+        android:onClick="actividad04"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALIR"
+        android:id="@+id/btnSalir"
+        android:onClick="salir"/>
+
+</LinearLayout>
